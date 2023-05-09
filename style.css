@@ -1,0 +1,171 @@
+/*
+
+Cores para o projeto:
+#3B668C
+#4B83A6
+#595405
+#A69C0D
+#0D0D0D
+
+#04ADBF
+#04BFBF
+#025959
+#A0A603
+#F2E0C9
+
+fontes para o projeto
+
+font-family: 'Castoro Titling', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sigmar', cursive;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#mostrar_background {
+    background-image: linear-gradient(rgba(0,255,255,0.75), rgba(240,248,255,0.1)), url('headercapa.jpg');
+    max-width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav {
+    background-color: #4B83A6;
+    color: #595405;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+nav img {
+    height: 250px;
+    width: 250px;
+    margin: 1 auto;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 80px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main{
+    background-image:  linear-gradient(rgba(0,255,255,0.95), rgba(240,248,255,0.95)), url('images/fotoclinica.png');
+    max-width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+footer {
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li a {
+    color: black;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    max-width: 15px;
+    padding: 1px 0;
+    display: block;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form input {
+    border-radius: 0;
+  }
+  
+  .btn-primary {
+    border-radius: 0;
+    padding: 10px 20px;
+  }
+
+/*
+
+estilizações que não deram certo.
+
+header{
+    max-width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(240,248,255,1), rgba(0,255,255,1)), url('/headercapa.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    position: relative;
+}
+
+
+header{
+    max-width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(240,248,255,1), rgba(0,255,255,1)), url('/headercapa.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgba(240,248,255,1), rgba(0,255,255,1));
+}
+
+
+    /*
+        background-image: url('headercapa.jpg')
+        background: linear-gradient((rgba(240,248,255,1)), (rgba(0,255,255,1)));
+        background: linear-gradient((rgba(240,248,255,1)), (rgba(0,255,255,1))), url(;
+        
+        
+    header{
+    max-width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(240,248,255,1), rgba(0,255,255,1)), url('headercapa.jpg');
+    bacground-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;k
+}*/
