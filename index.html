@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Clinic</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,49 +23,59 @@
 		<a href="#">Login</a>
     </nav>
     <main>
-    <div>
-    <br>
-    <h1 class="display4">Insônia</h1><br><br>
-    <p class="lead">A insônia é conceituada como a dificuldade de iniciar ou
-    manter o sono ou insatisfação com a qualidade do sono. Ela 
-    pode ser considerada um sintoma, sendo bastante comum adultos
-    procurarem orientação médica para solucionar este problema.<br>
-    No entanto, pode ser considerada também um diagnóstico etiológico
-    dentro das dissonias do sono, como a insônia primária que é 
-    caracterizada pela dificuldade em iniciar e/ou manter o sono
-    e pela sensação de não ter um sono reparador durante um período
-    não inferior a 1 mês.</p>
-    </div>
-    <h1 class="display4">Ronco</h1>
-    <p class="lead">Ronco é o som produzido na garganta durante o sono que ocorre por
-    um estreitamento da via aérea superior, podendo ser em qualquer local
-    desde o nariz até a laringe. A presença eventual de ronco pode ocorrer
-    quando se está com resfriado, com gripe ou rinite, porém este deve ronco
-    desaparecer após a melhora do quadro.<br>
-    No entanto, o ronco forte, frequente e presente em quase todas as noites
-    não é normal, e pode ser sinal de que a respiração durante o sono não está boa.
-    Este quadro precisa ser investigado pois pode ser o principal sinal de uma
-    situação bem mais séria que há a presença de Apneia Obstrutiva do Sono.
-    <br>
-    A principal causa do ronco é o excesso de peso. Estreitamento da garganta
-    por alguma alteração da anatomia, como por exemplo, aumento das amígdalas,
-    também é uma causa frequente, principalmente nas crianças.
-    <br>
-    O ronco varia bastante de uma noite para outra, e pode ser agravado
-    pela obstrução do nariz, pelo consumo de álcool, pelo uso de medicamentos
-    sedativos e de relaxantes musculares, e pelo cansaço.
-    <h1 class="display4">Apinéia</h1>
-    <p class="lead">Chamada também de apneia noturna ou somente apneia, a apneia do sono
-    é um distúrbio que faz com que a respiração durante o sono seja excessivamente
-    superficial ou ocorra parada completa da respiração por alguns segundos ou minutos.</p>
-    </div>
+      <br>
+      <br>
+      <br>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h1 class="display4">Insônia</h1>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p class="lead"><strong>A insônia</strong> é conceituada como a dificuldade de iniciar oumanter o sono ou insatisfação com a qualidade do sono. Ela pode ser considerada um sintoma, sendo bastante comum adultos procurarem orientação médica para solucionar este problema.<br> No entanto, pode ser considerada também um diagnóstico etiológico dentro das dissonias do sono, como a insônia primária que é caracterizada pela dificuldade em iniciar e/ou manter o sono e pela sensação de não ter um sono reparador durante um período não inferior a 1 mês.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h1 class="Display4">Ronco e Apinéia</h1>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p class="lead"><strong>O que é o ronco?</strong> Ronco é o som produzido na garganta durante o sono que ocorre por um estreitamento da via aérea superior, podendo ser em qualquer local desde o nariz até a laringe. A presença eventual de ronco pode ocorrer quando se está com resfriado, com gripe ou rinite, porém este deve ronco desaparecer após a melhora do quadro.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h1 class="Display4">Exame de polissonografia</h1>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p class="lead"><strong>A polissonografia é um exame</strong>  não invasivo feito enquanto o paciente está dormindo. Ao longo de uma noite de sono, dados são coletados para que o médico possa diagnosticar distúrbios de sono, como apneia obstrutiva do sono, movimento periódico de pernas e comportamentos noturnos, como sonambulismo.Dec
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <footer class="bg-dark text-light">
       <div class="container-fluid">
       <div class="row">
       <div class="col-md-4">
       <h3>Sobre nós</h3>
-      <p>A Health Clinic Graciosa é uma clínica médica localizada no bairro de Pinhais em Curitiba-PR <br> O médico Luiz Henrique é especialista no tratamento do sono, ronco e apinéia. </p>
+      <p class="lead">A Health Clinic Graciosa é uma clínica médica localizada no bairro de Pinhais em Curitiba-PR <br> O médico Luiz Henrique é especialista no tratamento do sono, ronco e apinéia. </p>
       </div>
       <br>
       <div class="col-md-4">
